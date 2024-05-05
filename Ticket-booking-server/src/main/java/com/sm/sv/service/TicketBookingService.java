@@ -19,21 +19,16 @@ public class TicketBookingService {
 	public void bookTicket(Integer numberOfTickets) {		
 		for (int i = 0; i < numberOfTickets; i++) {
             String randomString = generateTicketNumber();
-            System.out.println("Booked ticket : ticket Number is : " + randomString);
-            
+            System.out.println("Booked ticket : ticket Number is : " + randomString);            
             try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
             Map<String,String> ticketNumberMap=new HashMap<>();
             ticketNumberMap.put("ticket_number", randomString);
             kafkaTemplate.send("book-ticket", ticketNumberMap.toString());
-        }
-		
-		
-		
+        }	
 	}
 	
 	private String generateTicketNumber() {
