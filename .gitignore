@@ -1,0 +1,45 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# Build output
+target/
+build/
+
+# Maven specific
+mvnw
+mvnw.cmd
+.mvn/
+
+# Gradle specific
+.gradle/
+build/
+
+# Application properties
+application.properties
+application.yml
+
+# Spring Boot Jar files
+*.jar
+*.war
+*.ear
+
+# Eclipse specific
+*.project
+*.classpath
+.settings/
+
+# IntelliJ specific
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code specific
+.vscode/
+/.metadata/
