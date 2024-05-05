@@ -19,7 +19,7 @@ public class TicketBookingService {
 	public void bookTicket(Integer numberOfTickets) {		
 		for (int i = 0; i < numberOfTickets; i++) {
             String randomString = generateTicketNumber();
-            System.out.println("Random String " + (i + 1) + ": " + randomString);
+            System.out.println("Booked ticket : ticket Number is : " + randomString);
             
             try {
 				Thread.sleep(1000);
