@@ -1,4 +1,15 @@
 
+
+kafka producer : ticket booking server:
+
+![image](https://github.com/shubham-mhatre/springboot-kafka/assets/55918816/f32a487f-4acb-4126-950e-72047a302ab2)
+
+
+kafka consumer : ticket booking user : notification consumer
+
+![image](https://github.com/shubham-mhatre/springboot-kafka/assets/55918816/68c76d0c-e41a-4f15-beb4-497599d368c8)
+
+
 to run kafka zookeeper:
 
 go to : C:\kafka\kafka_2.13-3.7.0
